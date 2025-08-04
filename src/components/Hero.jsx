@@ -99,29 +99,7 @@ export default function Hero() {
               </motion.button>
             </motion.div>
 
-            {/* Video Section */}
-            <motion.div
-              className="mt-8"
-              whileInView={{ opacity: 1, y: 0 }}
-              initial={{ opacity: 0, y: 30 }}
-              transition={{ duration: 0.8, delay: 0.5 }}
-            >
-              <p className="text-lg font-semibold text-ntc-black mb-4">
-                🎥 Conheça nossos produtos em ação
-              </p>
-              <div className="relative w-full max-w-md">
-                <iframe
-                  width="100%"
-                  height="200"
-                  src="https://www.youtube.com/embed/IuQ3E3tEX9I"
-                  title="NTCGeo Produtos"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="rounded-lg shadow-lg"
-                ></iframe>
-              </div>
-            </motion.div>
+
           </motion.div>
 
           {/* Image Grid */}
