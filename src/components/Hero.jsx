@@ -45,7 +45,7 @@ export default function Hero() {
                 <span className="text-gradient bg-gradient-primary bg-clip-text text-transparent">
                   Caminho
                 </span>{' '}
-                para a Seca Ambiental
+                de forma inteligente
               </h1>
               
               <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">
